@@ -24,25 +24,25 @@ The goal of this project is to practice with:
 
 ## Getting started
 
-# Install packages and dependecies to produce the node_modules folder
+### Install packages and dependecies
 	$npm install
 
-# Add your API keys in the app.js file:
+### Add your API keys in the app.js file:
 	WeatherbitKey = 'ADD YOUR KEY';
 	pixabayAPIKey = 'ADD YOUR KEY';
 
-# Add your geonamesApi username in the app.js file:
+### Add your geonamesApi username in the app.js file:
 	geonamesApiUsername = "ADD YOUR USERNAME";
 
-# Install node.js on your machine and then start express-server at port number: 8000
+### Install node.js on your machine and then start express-server at port number: 8000
     $npm start
 
-# Run the app in the dev mode
+### Run the app in the dev mode
 	$ npm run build-dev
 	$ npm run start
 	Note:: The web page can be accessed with localhost:8000
 
-# Run the app in the prod mode
+### Run the app in the prod mode
 	$ npm run build-prod
 	$ npm run start
 	Note:: The web page can be accessed with localhost:3000
@@ -58,7 +58,7 @@ The project have service workers set up in webpack.
 
 ## Testing
 
-# Fire test with Jest and watch tests
+### Fire test with Jest and watch tests
     npm test
 
 
